@@ -1,0 +1,8 @@
+base_model: unsloth/Qwen2.5-3B-Instruct-bnb-4bit
+dataset: openai/gsm8k
+dataset_config: main
+split: test
+max_new_tokens: 256
+do_sample: false
+temperature: 0.0
+top_p: 1.0
