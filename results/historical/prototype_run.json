@@ -1,0 +1,18 @@
+{
+  "model": "Qwen2.5-3B-Instruct",
+  "base_4bit_model": "unsloth/Qwen2.5-3B-Instruct-bnb-4bit",
+  "dataset": "openai/gsm8k",
+  "train_examples": 7473,
+  "test_examples": 1319,
+  "epochs": 1,
+  "effective_batch_size": 16,
+  "gradient_accumulation_steps": 8,
+  "batch_per_device": 2,
+  "steps": 468,
+  "learning_rate": 0.000005,
+  "lora_trainable_params": 14966784,
+  "model_params": 3100905472,
+  "lora_trainable_fraction": 0.004826,
+  "training_wall_time": "1:19:27",
+  "evaluation_note": "Notebook contains 10 custom qualitative questions for base and fine-tuned models, but no automated GSM8K exact-match score over the 1319-example test split."
+}
